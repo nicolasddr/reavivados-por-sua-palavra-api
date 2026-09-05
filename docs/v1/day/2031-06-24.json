@@ -1,0 +1,15 @@
+{
+  "date": "2031-06-24",
+  "reference": "1 Coríntios 9",
+  "book": {
+    "name": "1 Coríntios",
+    "slug": "1-corintios",
+    "abbreviation": "1Co",
+    "testament": "NT",
+    "position": 46
+  },
+  "chapter": 9,
+  "cycle": 6,
+  "dayOfCycle": 1071,
+  "totalDays": 1189
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2029-09-25",
+  "reference": "Ester 8",
+  "book": {
+    "name": "Ester",
+    "slug": "ester",
+    "abbreviation": "Et",
+    "testament": "AT",
+    "position": 17
+  },
+  "chapter": 8,
+  "cycle": 6,
+  "dayOfCycle": 434,
+  "totalDays": 1189
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "totalDays": 1189,
+  "from": "2025-04-17",
+  "to": "2031-10-20",
+  "days": 2378,
+  "years": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031
+  ],
+  "endpoints": {
+    "books": "/v1/books.json",
+    "day": "/v1/day/{YYYY-MM-DD}.json",
+    "year": "/v1/year/{YYYY}.json"
+  }
+}

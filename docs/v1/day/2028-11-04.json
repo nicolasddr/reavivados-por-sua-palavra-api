@@ -1,0 +1,15 @@
+{
+  "date": "2028-11-04",
+  "reference": "Levítico 19",
+  "book": {
+    "name": "Levítico",
+    "slug": "levitico",
+    "abbreviation": "Lv",
+    "testament": "AT",
+    "position": 3
+  },
+  "chapter": 19,
+  "cycle": 6,
+  "dayOfCycle": 109,
+  "totalDays": 1189
+}

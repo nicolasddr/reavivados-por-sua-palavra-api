@@ -1,0 +1,15 @@
+{
+  "date": "2028-06-22",
+  "reference": "1 João 4",
+  "book": {
+    "name": "1 João",
+    "slug": "1-joao",
+    "abbreviation": "1Jo",
+    "testament": "NT",
+    "position": 62
+  },
+  "chapter": 4,
+  "cycle": 5,
+  "dayOfCycle": 1163,
+  "totalDays": 1189
+}

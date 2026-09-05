@@ -1,0 +1,15 @@
+{
+  "date": "2030-12-12",
+  "reference": "Joel 1",
+  "book": {
+    "name": "Joel",
+    "slug": "joel",
+    "abbreviation": "Jl",
+    "testament": "AT",
+    "position": 29
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 877,
+  "totalDays": 1189
+}

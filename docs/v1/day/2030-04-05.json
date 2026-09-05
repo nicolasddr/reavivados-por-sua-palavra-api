@@ -1,0 +1,15 @@
+{
+  "date": "2030-04-05",
+  "reference": "Salmos 148",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 148,
+  "cycle": 6,
+  "dayOfCycle": 626,
+  "totalDays": 1189
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2031-07-26",
+  "reference": "Efésios 6",
+  "book": {
+    "name": "Efésios",
+    "slug": "efesios",
+    "abbreviation": "Ef",
+    "testament": "NT",
+    "position": 49
+  },
+  "chapter": 6,
+  "cycle": 6,
+  "dayOfCycle": 1103,
+  "totalDays": 1189
+}

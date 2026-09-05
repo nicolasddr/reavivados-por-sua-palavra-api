@@ -1,0 +1,15 @@
+{
+  "date": "2031-09-27",
+  "reference": "3 João 1",
+  "book": {
+    "name": "3 João",
+    "slug": "3-joao",
+    "abbreviation": "3Jo",
+    "testament": "NT",
+    "position": 64
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 1166,
+  "totalDays": 1189
+}

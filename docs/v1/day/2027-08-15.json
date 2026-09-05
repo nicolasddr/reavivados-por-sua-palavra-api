@@ -1,0 +1,15 @@
+{
+  "date": "2027-08-15",
+  "reference": "Daniel 1",
+  "book": {
+    "name": "Daniel",
+    "slug": "daniel",
+    "abbreviation": "Dn",
+    "testament": "AT",
+    "position": 27
+  },
+  "chapter": 1,
+  "cycle": 5,
+  "dayOfCycle": 851,
+  "totalDays": 1189
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-20",
+  "reference": "2 Crônicas 32",
+  "book": {
+    "name": "2 Crônicas",
+    "slug": "2-cronicas",
+    "abbreviation": "2Cr",
+    "testament": "AT",
+    "position": 14
+  },
+  "chapter": 32,
+  "cycle": 5,
+  "dayOfCycle": 399,
+  "totalDays": 1189
+}

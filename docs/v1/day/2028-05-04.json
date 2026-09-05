@@ -1,0 +1,15 @@
+{
+  "date": "2028-05-04",
+  "reference": "1 Tessalonicenses 3",
+  "book": {
+    "name": "1 Tessalonicenses",
+    "slug": "1-tessalonicenses",
+    "abbreviation": "1Ts",
+    "testament": "NT",
+    "position": 52
+  },
+  "chapter": 3,
+  "cycle": 5,
+  "dayOfCycle": 1114,
+  "totalDays": 1189
+}

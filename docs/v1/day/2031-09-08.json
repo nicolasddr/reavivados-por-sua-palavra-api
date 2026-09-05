@@ -1,0 +1,15 @@
+{
+  "date": "2031-09-08",
+  "reference": "Tiago 1",
+  "book": {
+    "name": "Tiago",
+    "slug": "tiago",
+    "abbreviation": "Tg",
+    "testament": "NT",
+    "position": 59
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 1147,
+  "totalDays": 1189
+}

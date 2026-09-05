@@ -1,0 +1,15 @@
+{
+  "date": "2030-03-12",
+  "reference": "Salmos 124",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 124,
+  "cycle": 6,
+  "dayOfCycle": 602,
+  "totalDays": 1189
+}

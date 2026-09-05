@@ -1,0 +1,15 @@
+{
+  "date": "2029-03-08",
+  "reference": "Rute 1",
+  "book": {
+    "name": "Rute",
+    "slug": "rute",
+    "abbreviation": "Rt",
+    "testament": "AT",
+    "position": 8
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 233,
+  "totalDays": 1189
+}

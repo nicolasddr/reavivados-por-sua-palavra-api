@@ -1,0 +1,15 @@
+{
+  "date": "2025-07-14",
+  "reference": "Êxodo 39",
+  "book": {
+    "name": "Êxodo",
+    "slug": "exodo",
+    "abbreviation": "Êx",
+    "testament": "AT",
+    "position": 2
+  },
+  "chapter": 39,
+  "cycle": 5,
+  "dayOfCycle": 89,
+  "totalDays": 1189
+}

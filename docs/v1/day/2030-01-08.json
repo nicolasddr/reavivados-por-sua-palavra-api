@@ -1,0 +1,15 @@
+{
+  "date": "2030-01-08",
+  "reference": "Salmos 61",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 61,
+  "cycle": 6,
+  "dayOfCycle": 539,
+  "totalDays": 1189
+}

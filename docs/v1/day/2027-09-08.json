@@ -1,0 +1,15 @@
+{
+  "date": "2027-09-08",
+  "reference": "Oseias 13",
+  "book": {
+    "name": "Oseias",
+    "slug": "oseias",
+    "abbreviation": "Os",
+    "testament": "AT",
+    "position": 28
+  },
+  "chapter": 13,
+  "cycle": 5,
+  "dayOfCycle": 875,
+  "totalDays": 1189
+}

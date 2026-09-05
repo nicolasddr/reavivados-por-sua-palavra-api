@@ -1,0 +1,15 @@
+{
+  "date": "2030-03-31",
+  "reference": "Salmos 143",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 143,
+  "cycle": 6,
+  "dayOfCycle": 621,
+  "totalDays": 1189
+}

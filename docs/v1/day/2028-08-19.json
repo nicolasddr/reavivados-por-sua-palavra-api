@@ -1,0 +1,15 @@
+{
+  "date": "2028-08-19",
+  "reference": "Gênesis 32",
+  "book": {
+    "name": "Gênesis",
+    "slug": "genesis",
+    "abbreviation": "Gn",
+    "testament": "AT",
+    "position": 1
+  },
+  "chapter": 32,
+  "cycle": 6,
+  "dayOfCycle": 32,
+  "totalDays": 1189
+}

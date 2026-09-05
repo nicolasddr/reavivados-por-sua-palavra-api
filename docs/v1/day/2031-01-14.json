@@ -1,0 +1,15 @@
+{
+  "date": "2031-01-14",
+  "reference": "Ageu 1",
+  "book": {
+    "name": "Ageu",
+    "slug": "ageu",
+    "abbreviation": "Ag",
+    "testament": "AT",
+    "position": 37
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 910,
+  "totalDays": 1189
+}

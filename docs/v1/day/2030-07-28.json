@@ -1,0 +1,15 @@
+{
+  "date": "2030-07-28",
+  "reference": "Isaías 61",
+  "book": {
+    "name": "Isaías",
+    "slug": "isaias",
+    "abbreviation": "Is",
+    "testament": "AT",
+    "position": 23
+  },
+  "chapter": 61,
+  "cycle": 6,
+  "dayOfCycle": 740,
+  "totalDays": 1189
+}

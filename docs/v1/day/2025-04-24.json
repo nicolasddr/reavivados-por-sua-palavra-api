@@ -1,0 +1,15 @@
+{
+  "date": "2025-04-24",
+  "reference": "Gênesis 8",
+  "book": {
+    "name": "Gênesis",
+    "slug": "genesis",
+    "abbreviation": "Gn",
+    "testament": "AT",
+    "position": 1
+  },
+  "chapter": 8,
+  "cycle": 5,
+  "dayOfCycle": 8,
+  "totalDays": 1189
+}

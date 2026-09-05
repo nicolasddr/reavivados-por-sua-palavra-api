@@ -1,0 +1,15 @@
+{
+  "date": "2031-05-21",
+  "reference": "Atos 19",
+  "book": {
+    "name": "Atos",
+    "slug": "atos",
+    "abbreviation": "At",
+    "testament": "NT",
+    "position": 44
+  },
+  "chapter": 19,
+  "cycle": 6,
+  "dayOfCycle": 1037,
+  "totalDays": 1189
+}

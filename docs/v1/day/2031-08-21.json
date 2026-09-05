@@ -1,0 +1,15 @@
+{
+  "date": "2031-08-21",
+  "reference": "2 Timóteo 4",
+  "book": {
+    "name": "2 Timóteo",
+    "slug": "2-timoteo",
+    "abbreviation": "2Tm",
+    "testament": "NT",
+    "position": 55
+  },
+  "chapter": 4,
+  "cycle": 6,
+  "dayOfCycle": 1129,
+  "totalDays": 1189
+}

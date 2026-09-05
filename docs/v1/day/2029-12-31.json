@@ -1,0 +1,15 @@
+{
+  "date": "2029-12-31",
+  "reference": "Salmos 53",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 53,
+  "cycle": 6,
+  "dayOfCycle": 531,
+  "totalDays": 1189
+}

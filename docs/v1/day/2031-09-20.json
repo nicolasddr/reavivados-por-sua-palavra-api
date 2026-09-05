@@ -1,0 +1,15 @@
+{
+  "date": "2031-09-20",
+  "reference": "2 Pedro 3",
+  "book": {
+    "name": "2 Pedro",
+    "slug": "2-pedro",
+    "abbreviation": "2Pe",
+    "testament": "NT",
+    "position": 61
+  },
+  "chapter": 3,
+  "cycle": 6,
+  "dayOfCycle": 1159,
+  "totalDays": 1189
+}

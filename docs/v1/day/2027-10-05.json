@@ -1,0 +1,15 @@
+{
+  "date": "2027-10-05",
+  "reference": "Naum 2",
+  "book": {
+    "name": "Naum",
+    "slug": "naum",
+    "abbreviation": "Na",
+    "testament": "AT",
+    "position": 34
+  },
+  "chapter": 2,
+  "cycle": 5,
+  "dayOfCycle": 902,
+  "totalDays": 1189
+}

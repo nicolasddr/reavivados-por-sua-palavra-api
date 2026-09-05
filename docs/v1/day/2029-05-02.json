@@ -1,0 +1,15 @@
+{
+  "date": "2029-05-02",
+  "reference": "2 Samuel 21",
+  "book": {
+    "name": "2 Samuel",
+    "slug": "2-samuel",
+    "abbreviation": "2Sm",
+    "testament": "AT",
+    "position": 10
+  },
+  "chapter": 21,
+  "cycle": 6,
+  "dayOfCycle": 288,
+  "totalDays": 1189
+}

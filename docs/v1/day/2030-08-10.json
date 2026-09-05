@@ -1,0 +1,15 @@
+{
+  "date": "2030-08-10",
+  "reference": "Jeremias 8",
+  "book": {
+    "name": "Jeremias",
+    "slug": "jeremias",
+    "abbreviation": "Jr",
+    "testament": "AT",
+    "position": 24
+  },
+  "chapter": 8,
+  "cycle": 6,
+  "dayOfCycle": 753,
+  "totalDays": 1189
+}

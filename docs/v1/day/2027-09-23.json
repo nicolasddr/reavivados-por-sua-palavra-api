@@ -1,0 +1,15 @@
+{
+  "date": "2027-09-23",
+  "reference": "Jonas 1",
+  "book": {
+    "name": "Jonas",
+    "slug": "jonas",
+    "abbreviation": "Jn",
+    "testament": "AT",
+    "position": 32
+  },
+  "chapter": 1,
+  "cycle": 5,
+  "dayOfCycle": 890,
+  "totalDays": 1189
+}

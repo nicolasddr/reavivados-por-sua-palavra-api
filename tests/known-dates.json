@@ -1,0 +1,24 @@
+{
+  "note": "Pares data -> capítulo usados como trava de regressão. A âncora confirmada é 2026-09-04 -> Salmos 28; as demais linhas foram derivadas dela pela regra de época + módulo 1189 e congeladas aqui, para que qualquer mudança acidental na tabela de livros ou na aritmética de datas quebre os testes.",
+  "anchor": "2026-09-04",
+  "dates": [
+    { "date": "2011-01-01", "reference": "Isaías 47", "cycle": 0, "dayOfCycle": 726, "why": "anterior à época: módulo negativo normalizado" },
+    { "date": "2012-04-08", "reference": "Apocalipse 22", "cycle": 0, "dayOfCycle": 1189, "why": "véspera da época: último dia do ciclo 0" },
+    { "date": "2012-04-09", "reference": "Gênesis 1", "cycle": 1, "dayOfCycle": 1, "why": "a época" },
+    { "date": "2025-04-17", "reference": "Gênesis 1", "cycle": 5, "dayOfCycle": 1, "why": "início do ciclo 5, primeiro dia da faixa publicada" },
+    { "date": "2025-12-31", "reference": "1 Samuel 23", "cycle": 5, "dayOfCycle": 259, "why": "virada de ano, sem realinhamento" },
+    { "date": "2026-01-01", "reference": "1 Samuel 24", "cycle": 5, "dayOfCycle": 260, "why": "virada de ano, sem realinhamento" },
+    { "date": "2026-02-28", "reference": "2 Reis 5", "cycle": 5, "dayOfCycle": 318, "why": "fim de fevereiro em ano comum" },
+    { "date": "2026-03-01", "reference": "2 Reis 6", "cycle": 5, "dayOfCycle": 319, "why": "28/02 -> 01/03 em ano comum" },
+    { "date": "2026-09-04", "reference": "Salmos 28", "cycle": 5, "dayOfCycle": 506, "why": "ÂNCORA CONFIRMADA" },
+    { "date": "2027-02-28", "reference": "Isaías 4", "cycle": 5, "dayOfCycle": 683, "why": "fim de fevereiro em ano comum" },
+    { "date": "2027-03-01", "reference": "Isaías 5", "cycle": 5, "dayOfCycle": 684, "why": "28/02 -> 01/03 em ano comum" },
+    { "date": "2028-02-28", "reference": "Romanos 2", "cycle": 5, "dayOfCycle": 1048, "why": "véspera do bissexto" },
+    { "date": "2028-02-29", "reference": "Romanos 3", "cycle": 5, "dayOfCycle": 1049, "why": "29 de fevereiro consome um capítulo como qualquer dia" },
+    { "date": "2028-03-01", "reference": "Romanos 4", "cycle": 5, "dayOfCycle": 1050, "why": "dia seguinte ao bissexto" },
+    { "date": "2028-07-18", "reference": "Apocalipse 22", "cycle": 5, "dayOfCycle": 1189, "why": "último dia do ciclo 5" },
+    { "date": "2028-07-19", "reference": "Gênesis 1", "cycle": 6, "dayOfCycle": 1, "why": "virada de ciclo: recomeça sem pausa" },
+    { "date": "2029-12-06", "reference": "Salmos 28", "cycle": 6, "dayOfCycle": 506, "why": "a âncora um ciclo adiante" },
+    { "date": "2031-10-20", "reference": "Apocalipse 22", "cycle": 6, "dayOfCycle": 1189, "why": "último dia da faixa publicada" }
+  ]
+}

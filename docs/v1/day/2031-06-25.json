@@ -1,0 +1,15 @@
+{
+  "date": "2031-06-25",
+  "reference": "1 Coríntios 10",
+  "book": {
+    "name": "1 Coríntios",
+    "slug": "1-corintios",
+    "abbreviation": "1Co",
+    "testament": "NT",
+    "position": 46
+  },
+  "chapter": 10,
+  "cycle": 6,
+  "dayOfCycle": 1072,
+  "totalDays": 1189
+}

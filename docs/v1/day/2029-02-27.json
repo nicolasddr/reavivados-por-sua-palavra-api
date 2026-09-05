@@ -1,0 +1,15 @@
+{
+  "date": "2029-02-27",
+  "reference": "Juízes 13",
+  "book": {
+    "name": "Juízes",
+    "slug": "juizes",
+    "abbreviation": "Jz",
+    "testament": "AT",
+    "position": 7
+  },
+  "chapter": 13,
+  "cycle": 6,
+  "dayOfCycle": 224,
+  "totalDays": 1189
+}

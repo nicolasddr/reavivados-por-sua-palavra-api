@@ -1,0 +1,15 @@
+{
+  "date": "2028-01-24",
+  "reference": "João 16",
+  "book": {
+    "name": "João",
+    "slug": "joao",
+    "abbreviation": "Jo",
+    "testament": "NT",
+    "position": 43
+  },
+  "chapter": 16,
+  "cycle": 5,
+  "dayOfCycle": 1013,
+  "totalDays": 1189
+}

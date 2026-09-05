@@ -1,0 +1,15 @@
+{
+  "date": "2030-09-25",
+  "reference": "Lamentações 2",
+  "book": {
+    "name": "Lamentações",
+    "slug": "lamentacoes",
+    "abbreviation": "Lm",
+    "testament": "AT",
+    "position": 25
+  },
+  "chapter": 2,
+  "cycle": 6,
+  "dayOfCycle": 799,
+  "totalDays": 1189
+}

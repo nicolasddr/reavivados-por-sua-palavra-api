@@ -1,0 +1,15 @@
+{
+  "date": "2025-05-31",
+  "reference": "Gênesis 45",
+  "book": {
+    "name": "Gênesis",
+    "slug": "genesis",
+    "abbreviation": "Gn",
+    "testament": "AT",
+    "position": 1
+  },
+  "chapter": 45,
+  "cycle": 5,
+  "dayOfCycle": 45,
+  "totalDays": 1189
+}

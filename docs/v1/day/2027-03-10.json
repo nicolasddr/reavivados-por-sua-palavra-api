@@ -1,0 +1,15 @@
+{
+  "date": "2027-03-10",
+  "reference": "Isaías 14",
+  "book": {
+    "name": "Isaías",
+    "slug": "isaias",
+    "abbreviation": "Is",
+    "testament": "AT",
+    "position": 23
+  },
+  "chapter": 14,
+  "cycle": 5,
+  "dayOfCycle": 693,
+  "totalDays": 1189
+}

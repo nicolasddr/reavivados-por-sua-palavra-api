@@ -1,0 +1,15 @@
+{
+  "date": "2028-05-14",
+  "reference": "1 Timóteo 5",
+  "book": {
+    "name": "1 Timóteo",
+    "slug": "1-timoteo",
+    "abbreviation": "1Tm",
+    "testament": "NT",
+    "position": 54
+  },
+  "chapter": 5,
+  "cycle": 5,
+  "dayOfCycle": 1124,
+  "totalDays": 1189
+}

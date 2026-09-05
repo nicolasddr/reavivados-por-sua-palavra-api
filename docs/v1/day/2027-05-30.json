@@ -1,0 +1,15 @@
+{
+  "date": "2027-05-30",
+  "reference": "Jeremias 29",
+  "book": {
+    "name": "Jeremias",
+    "slug": "jeremias",
+    "abbreviation": "Jr",
+    "testament": "AT",
+    "position": 24
+  },
+  "chapter": 29,
+  "cycle": 5,
+  "dayOfCycle": 774,
+  "totalDays": 1189
+}

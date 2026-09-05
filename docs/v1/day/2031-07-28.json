@@ -1,0 +1,15 @@
+{
+  "date": "2031-07-28",
+  "reference": "Filipenses 2",
+  "book": {
+    "name": "Filipenses",
+    "slug": "filipenses",
+    "abbreviation": "Fp",
+    "testament": "NT",
+    "position": 50
+  },
+  "chapter": 2,
+  "cycle": 6,
+  "dayOfCycle": 1105,
+  "totalDays": 1189
+}

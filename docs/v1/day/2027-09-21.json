@@ -1,0 +1,15 @@
+{
+  "date": "2027-09-21",
+  "reference": "Amós 9",
+  "book": {
+    "name": "Amós",
+    "slug": "amos",
+    "abbreviation": "Am",
+    "testament": "AT",
+    "position": 30
+  },
+  "chapter": 9,
+  "cycle": 5,
+  "dayOfCycle": 888,
+  "totalDays": 1189
+}

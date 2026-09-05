@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-18",
+  "reference": "1 Reis 17",
+  "book": {
+    "name": "1 Reis",
+    "slug": "1-reis",
+    "abbreviation": "1Rs",
+    "testament": "AT",
+    "position": 11
+  },
+  "chapter": 17,
+  "cycle": 5,
+  "dayOfCycle": 308,
+  "totalDays": 1189
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2027-02-19",
+  "reference": "Cânticos 3",
+  "book": {
+    "name": "Cânticos",
+    "slug": "canticos",
+    "abbreviation": "Ct",
+    "testament": "AT",
+    "position": 22
+  },
+  "chapter": 3,
+  "cycle": 5,
+  "dayOfCycle": 674,
+  "totalDays": 1189
+}

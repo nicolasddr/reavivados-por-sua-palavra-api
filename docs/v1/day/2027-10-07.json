@@ -1,0 +1,15 @@
+{
+  "date": "2027-10-07",
+  "reference": "Habacuque 1",
+  "book": {
+    "name": "Habacuque",
+    "slug": "habacuque",
+    "abbreviation": "Hc",
+    "testament": "AT",
+    "position": 35
+  },
+  "chapter": 1,
+  "cycle": 5,
+  "dayOfCycle": 904,
+  "totalDays": 1189
+}

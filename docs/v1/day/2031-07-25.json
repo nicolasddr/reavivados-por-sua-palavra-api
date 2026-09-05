@@ -1,0 +1,15 @@
+{
+  "date": "2031-07-25",
+  "reference": "Efésios 5",
+  "book": {
+    "name": "Efésios",
+    "slug": "efesios",
+    "abbreviation": "Ef",
+    "testament": "NT",
+    "position": 49
+  },
+  "chapter": 5,
+  "cycle": 6,
+  "dayOfCycle": 1102,
+  "totalDays": 1189
+}

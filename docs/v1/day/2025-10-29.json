@@ -1,0 +1,15 @@
+{
+  "date": "2025-10-29",
+  "reference": "Josué 9",
+  "book": {
+    "name": "Josué",
+    "slug": "josue",
+    "abbreviation": "Js",
+    "testament": "AT",
+    "position": 6
+  },
+  "chapter": 9,
+  "cycle": 5,
+  "dayOfCycle": 196,
+  "totalDays": 1189
+}

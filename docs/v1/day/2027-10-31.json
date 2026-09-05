@@ -1,0 +1,15 @@
+{
+  "date": "2027-10-31",
+  "reference": "Malaquias 3",
+  "book": {
+    "name": "Malaquias",
+    "slug": "malaquias",
+    "abbreviation": "Ml",
+    "testament": "AT",
+    "position": 39
+  },
+  "chapter": 3,
+  "cycle": 5,
+  "dayOfCycle": 928,
+  "totalDays": 1189
+}

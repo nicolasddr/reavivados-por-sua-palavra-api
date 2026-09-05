@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "reference": "Salmos 66",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 66,
+  "cycle": 5,
+  "dayOfCycle": 544,
+  "totalDays": 1189
+}

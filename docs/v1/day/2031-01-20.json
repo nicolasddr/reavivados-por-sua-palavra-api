@@ -1,0 +1,15 @@
+{
+  "date": "2031-01-20",
+  "reference": "Zacarias 5",
+  "book": {
+    "name": "Zacarias",
+    "slug": "zacarias",
+    "abbreviation": "Zc",
+    "testament": "AT",
+    "position": 38
+  },
+  "chapter": 5,
+  "cycle": 6,
+  "dayOfCycle": 916,
+  "totalDays": 1189
+}

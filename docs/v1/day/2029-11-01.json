@@ -1,0 +1,15 @@
+{
+  "date": "2029-11-01",
+  "reference": "Jó 35",
+  "book": {
+    "name": "Jó",
+    "slug": "jo",
+    "abbreviation": "Jó",
+    "testament": "AT",
+    "position": 18
+  },
+  "chapter": 35,
+  "cycle": 6,
+  "dayOfCycle": 471,
+  "totalDays": 1189
+}

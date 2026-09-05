@@ -1,0 +1,15 @@
+{
+  "date": "2031-01-12",
+  "reference": "Sofonias 2",
+  "book": {
+    "name": "Sofonias",
+    "slug": "sofonias",
+    "abbreviation": "Sf",
+    "testament": "AT",
+    "position": 36
+  },
+  "chapter": 2,
+  "cycle": 6,
+  "dayOfCycle": 908,
+  "totalDays": 1189
+}

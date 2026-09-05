@@ -1,0 +1,15 @@
+{
+  "date": "2027-12-05",
+  "reference": "Marcos 6",
+  "book": {
+    "name": "Marcos",
+    "slug": "marcos",
+    "abbreviation": "Mc",
+    "testament": "NT",
+    "position": 41
+  },
+  "chapter": 6,
+  "cycle": 5,
+  "dayOfCycle": 963,
+  "totalDays": 1189
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2027-10-02",
+  "reference": "Miqueias 6",
+  "book": {
+    "name": "Miqueias",
+    "slug": "miqueias",
+    "abbreviation": "Mq",
+    "testament": "AT",
+    "position": 33
+  },
+  "chapter": 6,
+  "cycle": 5,
+  "dayOfCycle": 899,
+  "totalDays": 1189
+}

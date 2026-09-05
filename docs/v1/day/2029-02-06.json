@@ -1,0 +1,15 @@
+{
+  "date": "2029-02-06",
+  "reference": "Josué 16",
+  "book": {
+    "name": "Josué",
+    "slug": "josue",
+    "abbreviation": "Js",
+    "testament": "AT",
+    "position": 6
+  },
+  "chapter": 16,
+  "cycle": 6,
+  "dayOfCycle": 203,
+  "totalDays": 1189
+}

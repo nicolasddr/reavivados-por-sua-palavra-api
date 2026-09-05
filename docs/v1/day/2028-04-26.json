@@ -1,0 +1,15 @@
+{
+  "date": "2028-04-26",
+  "reference": "Filipenses 3",
+  "book": {
+    "name": "Filipenses",
+    "slug": "filipenses",
+    "abbreviation": "Fp",
+    "testament": "NT",
+    "position": 50
+  },
+  "chapter": 3,
+  "cycle": 5,
+  "dayOfCycle": 1106,
+  "totalDays": 1189
+}

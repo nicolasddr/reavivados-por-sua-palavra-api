@@ -1,0 +1,15 @@
+{
+  "date": "2029-03-23",
+  "reference": "1 Samuel 12",
+  "book": {
+    "name": "1 Samuel",
+    "slug": "1-samuel",
+    "abbreviation": "1Sm",
+    "testament": "AT",
+    "position": 9
+  },
+  "chapter": 12,
+  "cycle": 6,
+  "dayOfCycle": 248,
+  "totalDays": 1189
+}

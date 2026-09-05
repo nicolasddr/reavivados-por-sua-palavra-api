@@ -1,0 +1,15 @@
+{
+  "date": "2028-04-30",
+  "reference": "Colossenses 3",
+  "book": {
+    "name": "Colossenses",
+    "slug": "colossenses",
+    "abbreviation": "Cl",
+    "testament": "NT",
+    "position": 51
+  },
+  "chapter": 3,
+  "cycle": 5,
+  "dayOfCycle": 1110,
+  "totalDays": 1189
+}

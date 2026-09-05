@@ -1,0 +1,15 @@
+{
+  "date": "2029-07-01",
+  "reference": "1 Crônicas 10",
+  "book": {
+    "name": "1 Crônicas",
+    "slug": "1-cronicas",
+    "abbreviation": "1Cr",
+    "testament": "AT",
+    "position": 13
+  },
+  "chapter": 10,
+  "cycle": 6,
+  "dayOfCycle": 348,
+  "totalDays": 1189
+}

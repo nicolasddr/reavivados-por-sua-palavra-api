@@ -1,0 +1,15 @@
+{
+  "date": "2031-01-30",
+  "reference": "Malaquias 1",
+  "book": {
+    "name": "Malaquias",
+    "slug": "malaquias",
+    "abbreviation": "Ml",
+    "testament": "AT",
+    "position": 39
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 926,
+  "totalDays": 1189
+}

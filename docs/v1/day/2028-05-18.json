@@ -1,0 +1,15 @@
+{
+  "date": "2028-05-18",
+  "reference": "2 Timóteo 3",
+  "book": {
+    "name": "2 Timóteo",
+    "slug": "2-timoteo",
+    "abbreviation": "2Tm",
+    "testament": "NT",
+    "position": 55
+  },
+  "chapter": 3,
+  "cycle": 5,
+  "dayOfCycle": 1128,
+  "totalDays": 1189
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2027-07-27",
+  "reference": "Ezequiel 30",
+  "book": {
+    "name": "Ezequiel",
+    "slug": "ezequiel",
+    "abbreviation": "Ez",
+    "testament": "AT",
+    "position": 26
+  },
+  "chapter": 30,
+  "cycle": 5,
+  "dayOfCycle": 832,
+  "totalDays": 1189
+}

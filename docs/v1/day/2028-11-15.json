@@ -1,0 +1,15 @@
+{
+  "date": "2028-11-15",
+  "reference": "Números 3",
+  "book": {
+    "name": "Números",
+    "slug": "numeros",
+    "abbreviation": "Nm",
+    "testament": "AT",
+    "position": 4
+  },
+  "chapter": 3,
+  "cycle": 6,
+  "dayOfCycle": 120,
+  "totalDays": 1189
+}

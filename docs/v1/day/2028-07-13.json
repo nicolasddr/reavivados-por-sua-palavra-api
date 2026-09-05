@@ -1,0 +1,15 @@
+{
+  "date": "2028-07-13",
+  "reference": "Apocalipse 17",
+  "book": {
+    "name": "Apocalipse",
+    "slug": "apocalipse",
+    "abbreviation": "Ap",
+    "testament": "NT",
+    "position": 66
+  },
+  "chapter": 17,
+  "cycle": 5,
+  "dayOfCycle": 1184,
+  "totalDays": 1189
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2027-11-17",
+  "reference": "Mateus 16",
+  "book": {
+    "name": "Mateus",
+    "slug": "mateus",
+    "abbreviation": "Mt",
+    "testament": "NT",
+    "position": 40
+  },
+  "chapter": 16,
+  "cycle": 5,
+  "dayOfCycle": 945,
+  "totalDays": 1189
+}

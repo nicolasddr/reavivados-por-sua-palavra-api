@@ -1,0 +1,26 @@
+{
+  "name": "reavivados-por-sua-palavra-api",
+  "version": "1.0.0",
+  "description": "Qual capítulo da Bíblia corresponde a cada dia do plano de leitura Reavivados Por Sua Palavra, como arquivos JSON estáticos.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "generate": "node src/generate.js",
+    "verify": "node src/generate.js && git diff --exit-code --stat docs/"
+  },
+  "keywords": [
+    "biblia",
+    "plano-de-leitura",
+    "reavivados-por-sua-palavra",
+    "adventista"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasddr/reavivados-por-sua-palavra-api.git"
+  }
+}

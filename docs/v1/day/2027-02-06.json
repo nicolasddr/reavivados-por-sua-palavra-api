@@ -1,0 +1,15 @@
+{
+  "date": "2027-02-06",
+  "reference": "Eclesiastes 2",
+  "book": {
+    "name": "Eclesiastes",
+    "slug": "eclesiastes",
+    "abbreviation": "Ec",
+    "testament": "AT",
+    "position": 21
+  },
+  "chapter": 2,
+  "cycle": 5,
+  "dayOfCycle": 661,
+  "totalDays": 1189
+}

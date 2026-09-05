@@ -1,0 +1,15 @@
+{
+  "date": "2028-04-17",
+  "reference": "Gálatas 6",
+  "book": {
+    "name": "Gálatas",
+    "slug": "galatas",
+    "abbreviation": "Gl",
+    "testament": "NT",
+    "position": 48
+  },
+  "chapter": 6,
+  "cycle": 5,
+  "dayOfCycle": 1097,
+  "totalDays": 1189
+}

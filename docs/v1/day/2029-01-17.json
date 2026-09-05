@@ -1,0 +1,15 @@
+{
+  "date": "2029-01-17",
+  "reference": "Deuteronômio 30",
+  "book": {
+    "name": "Deuteronômio",
+    "slug": "deuteronomio",
+    "abbreviation": "Dt",
+    "testament": "AT",
+    "position": 5
+  },
+  "chapter": 30,
+  "cycle": 6,
+  "dayOfCycle": 183,
+  "totalDays": 1189
+}

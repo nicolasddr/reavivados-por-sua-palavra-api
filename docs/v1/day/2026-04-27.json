@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-27",
+  "reference": "2 Crônicas 9",
+  "book": {
+    "name": "2 Crônicas",
+    "slug": "2-cronicas",
+    "abbreviation": "2Cr",
+    "testament": "AT",
+    "position": 14
+  },
+  "chapter": 9,
+  "cycle": 5,
+  "dayOfCycle": 376,
+  "totalDays": 1189
+}

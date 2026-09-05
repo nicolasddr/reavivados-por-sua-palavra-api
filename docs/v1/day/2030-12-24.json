@@ -1,0 +1,15 @@
+{
+  "date": "2030-12-24",
+  "reference": "Obadias 1",
+  "book": {
+    "name": "Obadias",
+    "slug": "obadias",
+    "abbreviation": "Ob",
+    "testament": "AT",
+    "position": 31
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 889,
+  "totalDays": 1189
+}

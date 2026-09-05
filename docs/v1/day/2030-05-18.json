@@ -1,0 +1,15 @@
+{
+  "date": "2030-05-18",
+  "reference": "Eclesiastes 10",
+  "book": {
+    "name": "Eclesiastes",
+    "slug": "eclesiastes",
+    "abbreviation": "Ec",
+    "testament": "AT",
+    "position": 21
+  },
+  "chapter": 10,
+  "cycle": 6,
+  "dayOfCycle": 669,
+  "totalDays": 1189
+}

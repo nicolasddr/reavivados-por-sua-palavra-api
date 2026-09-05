@@ -1,0 +1,15 @@
+{
+  "date": "2028-04-05",
+  "reference": "2 Coríntios 7",
+  "book": {
+    "name": "2 Coríntios",
+    "slug": "2-corintios",
+    "abbreviation": "2Co",
+    "testament": "NT",
+    "position": 47
+  },
+  "chapter": 7,
+  "cycle": 5,
+  "dayOfCycle": 1085,
+  "totalDays": 1189
+}

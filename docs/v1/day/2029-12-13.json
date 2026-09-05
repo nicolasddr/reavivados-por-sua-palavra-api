@@ -1,0 +1,15 @@
+{
+  "date": "2029-12-13",
+  "reference": "Salmos 35",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 35,
+  "cycle": 6,
+  "dayOfCycle": 513,
+  "totalDays": 1189
+}

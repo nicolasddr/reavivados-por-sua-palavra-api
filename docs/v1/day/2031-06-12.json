@@ -1,0 +1,15 @@
+{
+  "date": "2031-06-12",
+  "reference": "Romanos 13",
+  "book": {
+    "name": "Romanos",
+    "slug": "romanos",
+    "abbreviation": "Rm",
+    "testament": "NT",
+    "position": 45
+  },
+  "chapter": 13,
+  "cycle": 6,
+  "dayOfCycle": 1059,
+  "totalDays": 1189
+}

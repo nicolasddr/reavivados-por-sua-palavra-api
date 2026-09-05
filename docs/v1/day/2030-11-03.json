@@ -1,0 +1,15 @@
+{
+  "date": "2030-11-03",
+  "reference": "Ezequiel 36",
+  "book": {
+    "name": "Ezequiel",
+    "slug": "ezequiel",
+    "abbreviation": "Ez",
+    "testament": "AT",
+    "position": 26
+  },
+  "chapter": 36,
+  "cycle": 6,
+  "dayOfCycle": 838,
+  "totalDays": 1189
+}

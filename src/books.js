@@ -1,0 +1,106 @@
+/**
+ * Tabela dos 66 livros da Bíblia.
+ *
+ * As chaves são em inglês; os valores permanecem em português, por serem
+ * conteúdo do domínio (nomes, abreviações e slugs).
+ *
+ * `testament` usa "AT" (Antigo Testamento) e "NT" (Novo Testamento).
+ * `position` é a posição canônica, de 1 a 66.
+ *
+ * Grafia pós-acordo ortográfico: Cânticos, Oseias, Miqueias, Amós, Filemom.
+ */
+
+/**
+ * @typedef {Object} Book
+ * @property {string} name
+ * @property {string} slug
+ * @property {string} abbreviation
+ * @property {"AT"|"NT"} testament
+ * @property {number} position
+ * @property {number} chapters
+ */
+
+/** @type {ReadonlyArray<Book>} */
+export const BOOKS = Object.freeze([
+  { name: 'Gênesis', slug: 'genesis', abbreviation: 'Gn', testament: 'AT', position: 1, chapters: 50 },
+  { name: 'Êxodo', slug: 'exodo', abbreviation: 'Êx', testament: 'AT', position: 2, chapters: 40 },
+  { name: 'Levítico', slug: 'levitico', abbreviation: 'Lv', testament: 'AT', position: 3, chapters: 27 },
+  { name: 'Números', slug: 'numeros', abbreviation: 'Nm', testament: 'AT', position: 4, chapters: 36 },
+  { name: 'Deuteronômio', slug: 'deuteronomio', abbreviation: 'Dt', testament: 'AT', position: 5, chapters: 34 },
+  { name: 'Josué', slug: 'josue', abbreviation: 'Js', testament: 'AT', position: 6, chapters: 24 },
+  { name: 'Juízes', slug: 'juizes', abbreviation: 'Jz', testament: 'AT', position: 7, chapters: 21 },
+  { name: 'Rute', slug: 'rute', abbreviation: 'Rt', testament: 'AT', position: 8, chapters: 4 },
+  { name: '1 Samuel', slug: '1-samuel', abbreviation: '1Sm', testament: 'AT', position: 9, chapters: 31 },
+  { name: '2 Samuel', slug: '2-samuel', abbreviation: '2Sm', testament: 'AT', position: 10, chapters: 24 },
+  { name: '1 Reis', slug: '1-reis', abbreviation: '1Rs', testament: 'AT', position: 11, chapters: 22 },
+  { name: '2 Reis', slug: '2-reis', abbreviation: '2Rs', testament: 'AT', position: 12, chapters: 25 },
+  { name: '1 Crônicas', slug: '1-cronicas', abbreviation: '1Cr', testament: 'AT', position: 13, chapters: 29 },
+  { name: '2 Crônicas', slug: '2-cronicas', abbreviation: '2Cr', testament: 'AT', position: 14, chapters: 36 },
+  { name: 'Esdras', slug: 'esdras', abbreviation: 'Ed', testament: 'AT', position: 15, chapters: 10 },
+  { name: 'Neemias', slug: 'neemias', abbreviation: 'Ne', testament: 'AT', position: 16, chapters: 13 },
+  { name: 'Ester', slug: 'ester', abbreviation: 'Et', testament: 'AT', position: 17, chapters: 10 },
+  { name: 'Jó', slug: 'jo', abbreviation: 'Jó', testament: 'AT', position: 18, chapters: 42 },
+  { name: 'Salmos', slug: 'salmos', abbreviation: 'Sl', testament: 'AT', position: 19, chapters: 150 },
+  { name: 'Provérbios', slug: 'proverbios', abbreviation: 'Pv', testament: 'AT', position: 20, chapters: 31 },
+  { name: 'Eclesiastes', slug: 'eclesiastes', abbreviation: 'Ec', testament: 'AT', position: 21, chapters: 12 },
+  { name: 'Cânticos', slug: 'canticos', abbreviation: 'Ct', testament: 'AT', position: 22, chapters: 8 },
+  { name: 'Isaías', slug: 'isaias', abbreviation: 'Is', testament: 'AT', position: 23, chapters: 66 },
+  { name: 'Jeremias', slug: 'jeremias', abbreviation: 'Jr', testament: 'AT', position: 24, chapters: 52 },
+  { name: 'Lamentações', slug: 'lamentacoes', abbreviation: 'Lm', testament: 'AT', position: 25, chapters: 5 },
+  { name: 'Ezequiel', slug: 'ezequiel', abbreviation: 'Ez', testament: 'AT', position: 26, chapters: 48 },
+  { name: 'Daniel', slug: 'daniel', abbreviation: 'Dn', testament: 'AT', position: 27, chapters: 12 },
+  { name: 'Oseias', slug: 'oseias', abbreviation: 'Os', testament: 'AT', position: 28, chapters: 14 },
+  { name: 'Joel', slug: 'joel', abbreviation: 'Jl', testament: 'AT', position: 29, chapters: 3 },
+  { name: 'Amós', slug: 'amos', abbreviation: 'Am', testament: 'AT', position: 30, chapters: 9 },
+  { name: 'Obadias', slug: 'obadias', abbreviation: 'Ob', testament: 'AT', position: 31, chapters: 1 },
+  { name: 'Jonas', slug: 'jonas', abbreviation: 'Jn', testament: 'AT', position: 32, chapters: 4 },
+  { name: 'Miqueias', slug: 'miqueias', abbreviation: 'Mq', testament: 'AT', position: 33, chapters: 7 },
+  { name: 'Naum', slug: 'naum', abbreviation: 'Na', testament: 'AT', position: 34, chapters: 3 },
+  { name: 'Habacuque', slug: 'habacuque', abbreviation: 'Hc', testament: 'AT', position: 35, chapters: 3 },
+  { name: 'Sofonias', slug: 'sofonias', abbreviation: 'Sf', testament: 'AT', position: 36, chapters: 3 },
+  { name: 'Ageu', slug: 'ageu', abbreviation: 'Ag', testament: 'AT', position: 37, chapters: 2 },
+  { name: 'Zacarias', slug: 'zacarias', abbreviation: 'Zc', testament: 'AT', position: 38, chapters: 14 },
+  { name: 'Malaquias', slug: 'malaquias', abbreviation: 'Ml', testament: 'AT', position: 39, chapters: 4 },
+  { name: 'Mateus', slug: 'mateus', abbreviation: 'Mt', testament: 'NT', position: 40, chapters: 28 },
+  { name: 'Marcos', slug: 'marcos', abbreviation: 'Mc', testament: 'NT', position: 41, chapters: 16 },
+  { name: 'Lucas', slug: 'lucas', abbreviation: 'Lc', testament: 'NT', position: 42, chapters: 24 },
+  { name: 'João', slug: 'joao', abbreviation: 'Jo', testament: 'NT', position: 43, chapters: 21 },
+  { name: 'Atos', slug: 'atos', abbreviation: 'At', testament: 'NT', position: 44, chapters: 28 },
+  { name: 'Romanos', slug: 'romanos', abbreviation: 'Rm', testament: 'NT', position: 45, chapters: 16 },
+  { name: '1 Coríntios', slug: '1-corintios', abbreviation: '1Co', testament: 'NT', position: 46, chapters: 16 },
+  { name: '2 Coríntios', slug: '2-corintios', abbreviation: '2Co', testament: 'NT', position: 47, chapters: 13 },
+  { name: 'Gálatas', slug: 'galatas', abbreviation: 'Gl', testament: 'NT', position: 48, chapters: 6 },
+  { name: 'Efésios', slug: 'efesios', abbreviation: 'Ef', testament: 'NT', position: 49, chapters: 6 },
+  { name: 'Filipenses', slug: 'filipenses', abbreviation: 'Fp', testament: 'NT', position: 50, chapters: 4 },
+  { name: 'Colossenses', slug: 'colossenses', abbreviation: 'Cl', testament: 'NT', position: 51, chapters: 4 },
+  { name: '1 Tessalonicenses', slug: '1-tessalonicenses', abbreviation: '1Ts', testament: 'NT', position: 52, chapters: 5 },
+  { name: '2 Tessalonicenses', slug: '2-tessalonicenses', abbreviation: '2Ts', testament: 'NT', position: 53, chapters: 3 },
+  { name: '1 Timóteo', slug: '1-timoteo', abbreviation: '1Tm', testament: 'NT', position: 54, chapters: 6 },
+  { name: '2 Timóteo', slug: '2-timoteo', abbreviation: '2Tm', testament: 'NT', position: 55, chapters: 4 },
+  { name: 'Tito', slug: 'tito', abbreviation: 'Tt', testament: 'NT', position: 56, chapters: 3 },
+  { name: 'Filemom', slug: 'filemom', abbreviation: 'Fm', testament: 'NT', position: 57, chapters: 1 },
+  { name: 'Hebreus', slug: 'hebreus', abbreviation: 'Hb', testament: 'NT', position: 58, chapters: 13 },
+  { name: 'Tiago', slug: 'tiago', abbreviation: 'Tg', testament: 'NT', position: 59, chapters: 5 },
+  { name: '1 Pedro', slug: '1-pedro', abbreviation: '1Pe', testament: 'NT', position: 60, chapters: 5 },
+  { name: '2 Pedro', slug: '2-pedro', abbreviation: '2Pe', testament: 'NT', position: 61, chapters: 3 },
+  { name: '1 João', slug: '1-joao', abbreviation: '1Jo', testament: 'NT', position: 62, chapters: 5 },
+  { name: '2 João', slug: '2-joao', abbreviation: '2Jo', testament: 'NT', position: 63, chapters: 1 },
+  { name: '3 João', slug: '3-joao', abbreviation: '3Jo', testament: 'NT', position: 64, chapters: 1 },
+  { name: 'Judas', slug: 'judas', abbreviation: 'Jd', testament: 'NT', position: 65, chapters: 1 },
+  { name: 'Apocalipse', slug: 'apocalipse', abbreviation: 'Ap', testament: 'NT', position: 66, chapters: 22 },
+])
+
+/** Total de capítulos da Bíblia: 929 no AT + 260 no NT. */
+export const TOTAL_CHAPTERS = BOOKS.reduce((sum, book) => sum + book.chapters, 0)
+
+/** @type {Map<string, Book>} */
+const BY_SLUG = new Map(BOOKS.map((book) => [book.slug, book]))
+
+/**
+ * Busca um livro pelo slug.
+ * @param {string} slug
+ * @returns {Book|undefined}
+ */
+export function bookBySlug(slug) {
+  return BY_SLUG.get(slug)
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2029-09-15",
+  "reference": "Neemias 11",
+  "book": {
+    "name": "Neemias",
+    "slug": "neemias",
+    "abbreviation": "Ne",
+    "testament": "AT",
+    "position": 16
+  },
+  "chapter": 11,
+  "cycle": 6,
+  "dayOfCycle": 424,
+  "totalDays": 1189
+}

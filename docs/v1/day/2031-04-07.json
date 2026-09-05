@@ -1,0 +1,15 @@
+{
+  "date": "2031-04-07",
+  "reference": "Lucas 20",
+  "book": {
+    "name": "Lucas",
+    "slug": "lucas",
+    "abbreviation": "Lc",
+    "testament": "NT",
+    "position": 42
+  },
+  "chapter": 20,
+  "cycle": 6,
+  "dayOfCycle": 993,
+  "totalDays": 1189
+}

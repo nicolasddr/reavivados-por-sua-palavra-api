@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reavivados Por Sua Palavra — capítulo de hoje</title>
+<meta name="description" content="Qual capítulo da Bíblia corresponde a cada dia do plano de leitura Reavivados Por Sua Palavra. JSON estático, sem servidor.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbfaf7;
+    --fg: #1c1b18;
+    --muted: #6b675e;
+    --line: #e2ded4;
+    --accent: #7a5c1e;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16150f;
+      --fg: #ece8dd;
+      --muted: #9b958a;
+      --line: #2f2d25;
+      --accent: #d8b56a;
+      --card: #1e1c15;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  main { width: 100%; max-width: 40rem; }
+  header { text-align: center; margin-bottom: 2.5rem; }
+  h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+  }
+  .date { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.75rem; }
+  .reference {
+    font-size: clamp(2rem, 9vw, 3.25rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0;
+    color: var(--accent);
+  }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 1.25rem 0 0; }
+  .bar {
+    height: 6px;
+    background: var(--line);
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 1.5rem auto 0;
+    max-width: 22rem;
+  }
+  .bar > i { display: block; height: 100%; background: var(--accent); width: 0; }
+  .error { color: var(--muted); font-size: 0.95rem; }
+  section { margin-top: 2.5rem; }
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  pre {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  a { color: var(--accent); }
+  footer { margin-top: 3rem; text-align: center; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Reavivados Por Sua Palavra</h1>
+  </header>
+
+  <div class="card">
+    <p class="date" id="date">carregando…</p>
+    <p class="reference" id="reference">—</p>
+    <p class="meta" id="meta"></p>
+    <div class="bar" id="bar" hidden><i id="fill"></i></div>
+  </div>
+
+  <section>
+    <h2>Como consumir</h2>
+    <p>O cliente calcula a própria data local e busca o arquivo daquele dia. Não
+      há parâmetro de fuso horário porque não há servidor: é exatamente o que
+      esta página faz.</p>
+<pre><code>const hoje = new Date().toLocaleDateString('sv'); // "2026-09-04"
+const r = await fetch(`./v1/day/${hoje}.json`);
+const dia = await r.json();
+console.log(dia.reference); // "Salmos 28"</code></pre>
+  </section>
+
+  <footer>
+    <p>Dados em domínio público (CC0). <a href="https://github.com/nicolasddr/reavivados-por-sua-palavra-api">Código e documentação no GitHub</a>.</p>
+  </footer>
+</main>
+
+<script type="module">
+  const el = (id) => document.getElementById(id)
+
+  // 'sv' formata como YYYY-MM-DD, e usa o fuso local de quem está lendo.
+  const hoje = new Date().toLocaleDateString('sv')
+
+  const formatoLongo = new Intl.DateTimeFormat('pt-BR', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  })
+
+  try {
+    const resposta = await fetch(`./v1/day/${hoje}.json`)
+    if (!resposta.ok) throw new Error(String(resposta.status))
+    const dia = await resposta.json()
+
+    document.title = `${dia.reference} — Reavivados Por Sua Palavra`
+    el('date').textContent = formatoLongo.format(new Date(`${dia.date}T00:00:00Z`))
+    el('reference').textContent = dia.reference
+    el('meta').textContent =
+      `Dia ${dia.dayOfCycle} de ${dia.totalDays} — ciclo ${dia.cycle}`
+
+    el('bar').hidden = false
+    el('fill').style.width = `${(dia.dayOfCycle / dia.totalDays) * 100}%`
+  } catch {
+    el('date').textContent = ''
+    el('reference').textContent = 'Fora da faixa'
+    el('meta').innerHTML =
+      `Não há dado publicado para <code>${hoje}</code>. ` +
+      'A faixa gerada vai de 17/04/2025 a 20/10/2031.'
+    el('meta').classList.add('error')
+  }
+</script>
+</body>
+</html>

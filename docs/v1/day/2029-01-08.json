@@ -1,0 +1,15 @@
+{
+  "date": "2029-01-08",
+  "reference": "Deuteronômio 21",
+  "book": {
+    "name": "Deuteronômio",
+    "slug": "deuteronomio",
+    "abbreviation": "Dt",
+    "testament": "AT",
+    "position": 5
+  },
+  "chapter": 21,
+  "cycle": 6,
+  "dayOfCycle": 174,
+  "totalDays": 1189
+}

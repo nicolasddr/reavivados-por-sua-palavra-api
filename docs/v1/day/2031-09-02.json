@@ -1,0 +1,15 @@
+{
+  "date": "2031-09-02",
+  "reference": "Hebreus 8",
+  "book": {
+    "name": "Hebreus",
+    "slug": "hebreus",
+    "abbreviation": "Hb",
+    "testament": "NT",
+    "position": 58
+  },
+  "chapter": 8,
+  "cycle": 6,
+  "dayOfCycle": 1141,
+  "totalDays": 1189
+}

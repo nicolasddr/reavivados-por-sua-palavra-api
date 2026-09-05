@@ -1,0 +1,15 @@
+{
+  "date": "2028-09-02",
+  "reference": "Gênesis 46",
+  "book": {
+    "name": "Gênesis",
+    "slug": "genesis",
+    "abbreviation": "Gn",
+    "testament": "AT",
+    "position": 1
+  },
+  "chapter": 46,
+  "cycle": 6,
+  "dayOfCycle": 46,
+  "totalDays": 1189
+}

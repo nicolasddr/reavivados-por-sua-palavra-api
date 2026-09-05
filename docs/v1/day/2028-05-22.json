@@ -1,0 +1,15 @@
+{
+  "date": "2028-05-22",
+  "reference": "Tito 3",
+  "book": {
+    "name": "Tito",
+    "slug": "tito",
+    "abbreviation": "Tt",
+    "testament": "NT",
+    "position": 56
+  },
+  "chapter": 3,
+  "cycle": 5,
+  "dayOfCycle": 1132,
+  "totalDays": 1189
+}

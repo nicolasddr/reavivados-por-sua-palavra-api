@@ -1,0 +1,15 @@
+{
+  "date": "2026-12-17",
+  "reference": "Salmos 132",
+  "book": {
+    "name": "Salmos",
+    "slug": "salmos",
+    "abbreviation": "Sl",
+    "testament": "AT",
+    "position": 19
+  },
+  "chapter": 132,
+  "cycle": 5,
+  "dayOfCycle": 610,
+  "totalDays": 1189
+}

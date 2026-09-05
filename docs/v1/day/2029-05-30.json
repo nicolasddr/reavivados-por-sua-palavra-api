@@ -1,0 +1,15 @@
+{
+  "date": "2029-05-30",
+  "reference": "2 Reis 3",
+  "book": {
+    "name": "2 Reis",
+    "slug": "2-reis",
+    "abbreviation": "2Rs",
+    "testament": "AT",
+    "position": 12
+  },
+  "chapter": 3,
+  "cycle": 6,
+  "dayOfCycle": 316,
+  "totalDays": 1189
+}

@@ -1,0 +1,41 @@
+# Roda em Pull Request, não é agendada.
+#
+# Não existe workflow agendado neste repositório de propósito: todo arquivo de
+# dia é imutável, gerado uma vez e nunca mais alterado. Uma rotina agendada só
+# faria sentido para manter um `hoje.json`, que não temos — e o GitHub desativa
+# workflows agendados após 60 dias sem atividade, o que congelaria o arquivo em
+# um capítulo antigo, errado e sem aviso.
+name: testes
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Zero dependências: não há nada para instalar.
+      - name: Testes
+        run: npm test
+
+      # O gerador é determinístico. Se rodá-lo mexer em algum byte de docs/,
+      # é porque o dataset commitado está desatualizado.
+      - name: O dataset commitado está atualizado
+        run: |
+          node src/generate.js
+          git diff --exit-code --stat docs/ || {
+            echo "::error::docs/ está desatualizado. Rode 'npm run generate' e commite o resultado."
+            exit 1
+          }

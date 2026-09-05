@@ -1,0 +1,15 @@
+{
+  "date": "2025-08-08",
+  "reference": "Levítico 24",
+  "book": {
+    "name": "Levítico",
+    "slug": "levitico",
+    "abbreviation": "Lv",
+    "testament": "AT",
+    "position": 3
+  },
+  "chapter": 24,
+  "cycle": 5,
+  "dayOfCycle": 114,
+  "totalDays": 1189
+}

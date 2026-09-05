@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-26",
+  "reference": "2 Samuel 18",
+  "book": {
+    "name": "2 Samuel",
+    "slug": "2-samuel",
+    "abbreviation": "2Sm",
+    "testament": "AT",
+    "position": 10
+  },
+  "chapter": 18,
+  "cycle": 5,
+  "dayOfCycle": 285,
+  "totalDays": 1189
+}

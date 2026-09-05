@@ -1,0 +1,15 @@
+{
+  "date": "2030-04-16",
+  "reference": "Provérbios 9",
+  "book": {
+    "name": "Provérbios",
+    "slug": "proverbios",
+    "abbreviation": "Pv",
+    "testament": "AT",
+    "position": 20
+  },
+  "chapter": 9,
+  "cycle": 6,
+  "dayOfCycle": 637,
+  "totalDays": 1189
+}

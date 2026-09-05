@@ -1,0 +1,15 @@
+{
+  "date": "2031-09-28",
+  "reference": "Judas 1",
+  "book": {
+    "name": "Judas",
+    "slug": "judas",
+    "abbreviation": "Jd",
+    "testament": "NT",
+    "position": 65
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 1167,
+  "totalDays": 1189
+}

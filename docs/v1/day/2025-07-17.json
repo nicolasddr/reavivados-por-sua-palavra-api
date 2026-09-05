@@ -1,0 +1,15 @@
+{
+  "date": "2025-07-17",
+  "reference": "Levítico 2",
+  "book": {
+    "name": "Levítico",
+    "slug": "levitico",
+    "abbreviation": "Lv",
+    "testament": "AT",
+    "position": 3
+  },
+  "chapter": 2,
+  "cycle": 5,
+  "dayOfCycle": 92,
+  "totalDays": 1189
+}

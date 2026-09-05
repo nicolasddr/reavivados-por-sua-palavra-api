@@ -1,0 +1,15 @@
+{
+  "date": "2031-10-06",
+  "reference": "Apocalipse 8",
+  "book": {
+    "name": "Apocalipse",
+    "slug": "apocalipse",
+    "abbreviation": "Ap",
+    "testament": "NT",
+    "position": 66
+  },
+  "chapter": 8,
+  "cycle": 6,
+  "dayOfCycle": 1175,
+  "totalDays": 1189
+}

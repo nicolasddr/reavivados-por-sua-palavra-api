@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-31",
+  "reference": "Esdras 7",
+  "book": {
+    "name": "Esdras",
+    "slug": "esdras",
+    "abbreviation": "Ed",
+    "testament": "AT",
+    "position": 15
+  },
+  "chapter": 7,
+  "cycle": 5,
+  "dayOfCycle": 410,
+  "totalDays": 1189
+}

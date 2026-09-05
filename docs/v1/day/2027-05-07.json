@@ -1,0 +1,15 @@
+{
+  "date": "2027-05-07",
+  "reference": "Jeremias 6",
+  "book": {
+    "name": "Jeremias",
+    "slug": "jeremias",
+    "abbreviation": "Jr",
+    "testament": "AT",
+    "position": 24
+  },
+  "chapter": 6,
+  "cycle": 5,
+  "dayOfCycle": 751,
+  "totalDays": 1189
+}

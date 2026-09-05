@@ -1,0 +1,15 @@
+{
+  "date": "2031-08-25",
+  "reference": "Filemom 1",
+  "book": {
+    "name": "Filemom",
+    "slug": "filemom",
+    "abbreviation": "Fm",
+    "testament": "NT",
+    "position": 57
+  },
+  "chapter": 1,
+  "cycle": 6,
+  "dayOfCycle": 1133,
+  "totalDays": 1189
+}

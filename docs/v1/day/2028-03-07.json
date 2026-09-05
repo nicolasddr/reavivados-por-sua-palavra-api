@@ -1,0 +1,15 @@
+{
+  "date": "2028-03-07",
+  "reference": "Romanos 10",
+  "book": {
+    "name": "Romanos",
+    "slug": "romanos",
+    "abbreviation": "Rm",
+    "testament": "NT",
+    "position": 45
+  },
+  "chapter": 10,
+  "cycle": 5,
+  "dayOfCycle": 1056,
+  "totalDays": 1189
+}
